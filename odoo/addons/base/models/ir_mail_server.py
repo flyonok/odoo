@@ -400,6 +400,7 @@ class IrMailServer(models.Model):
         postmaster = get_param('mail.bounce.alias', default='postmaster-odoo')
         domain = get_param('mail.catchall.domain')
         if postmaster and domain:
+            _logger.info('%s@%s--xiaowy' % (postmaster, domain))
             return '%s@%s' % (postmaster, domain)
 
     @api.model

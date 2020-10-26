@@ -1,8 +1,14 @@
 <odoo>
     <template id="index">
-        <title>Academy</title>
-        <t t-foreach="teachers" t-as="teacher">
-            <p><t t-esc="teacher.id"/><t t-esc="teacher.name"/></p>
+        <t t-call="website.layout">
+            <title>Academy</title>
+            <div class="oe_structure">
+                <div class="container">
+                    <t t-foreach="teachers" t-as="teacher">
+                        <p><t t-esc="teacher.id"/><t t-esc="teacher.name"/></p>
+                    </t>
+                </div>
+            </div>
         </t>
     </template>
     <data>

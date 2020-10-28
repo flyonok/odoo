@@ -15,6 +15,7 @@ from odoo import models, fields, api
 #         self.value2 = float(self.value) / 100
 class Teachers(models.Model):
     _name = 'academy.teachers'
+    _description = 'academy teachers model'
 
     name = fields.Char()
     biography = fields.Html()

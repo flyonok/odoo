@@ -20,16 +20,16 @@
         <t t-call="website.layout">
             <t t-set="title">Academy</t>
             <div class="oe_structure"/>
-            <div class="oe_structure">
+            <div class="oe_structure"/>
                 <div class="container">
                 <!-- <t t-esc="person.id"/>
                     <t t-esc="person.name"/> -->
                 
                     <!-- <t t-esc="person.name"/> -->
-                    <h3><t t-field="person.name"/>
+                    <h3><t t-field="person.name"/></h3>
                     <!-- <div><t t-esc="person.biography"/></div> -->
                 
-                    <div><t t-field="person.biography"/>
+                    <div><t t-field="person.biography"/></div>
 
                 </div>
             <div class="oe_structure"/>

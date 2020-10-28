@@ -30,6 +30,7 @@
                     <!-- <div><t t-esc="person.biography"/></div> -->
                 
                     <div><t t-field="person.biography"/></div>
+                    <div>test</div>
 
                 </div>
             <div class="oe_structure"/>

@@ -26,9 +26,10 @@
                     <t t-esc="person.name"/> -->
                 
                     <!-- <t t-esc="person.name"/> -->
+                    <div>test</div>
                     <h3 t-field="person.name"/>
                     <div t-field="person.biography"/>
-                    <div>test</div>
+                    
 
                 </div>
             <div class="oe_structure"/>

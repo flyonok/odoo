@@ -16,7 +16,7 @@
             </div>
         </t>
     </template>
-    <template id="biography">
+    <template id="person">
         <t t-call="website.layout">
             <t t-set="title">Academy</t>
             <div class="oe_structure"/>

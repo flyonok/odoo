@@ -12,9 +12,9 @@ class Academy(http.Controller):
         # return http.request.render('academy.index', {
         #     'teachers': ["Diana Padilla", "Jody Caroll", "Lester Vaughn"],
         # })
-    @http.route('/academy/<name>/', auth='public', website=True)
+    @http.route('/academy/<int:id>/', auth='public', website=True)
     def teacher(self, name):
-        return '<h1>{}</h1>'.format(name)
+        return '<h1>{} ({})</h1>'.format(id, type(id).__name__)
 
 #     @http.route('/academy/academy/objects/', auth='public')
 #     def list(self, **kw):

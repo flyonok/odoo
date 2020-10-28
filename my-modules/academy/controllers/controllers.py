@@ -13,7 +13,7 @@ class Academy(http.Controller):
         #     'teachers': ["Diana Padilla", "Jody Caroll", "Lester Vaughn"],
         # })
     @http.route('/academy/<int:id>/', auth='public', website=True)
-    def teacher(self, name):
+    def teacher(self, id):
         return '<h1>{} ({})</h1>'.format(id, type(id).__name__)
 
 #     @http.route('/academy/academy/objects/', auth='public')

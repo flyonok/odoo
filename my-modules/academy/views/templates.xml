@@ -26,10 +26,8 @@
                     <t t-esc="person.name"/> -->
                 
                     <!-- <t t-esc="person.name"/> -->
-                    <h3><t-field="person.name"/>
-                    <!-- <div><t t-esc="person.biography"/></div> -->
-                
-                    <div><t-field="person.biography"/>
+                    <h3 t-field="person.name"/>
+                    <div t-field="person.biography"/>
                     <div>test</div>
 
                 </div>

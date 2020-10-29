@@ -19,13 +19,16 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['website'],
+    'installable': True,
+    'application': True,
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'views/bugs.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

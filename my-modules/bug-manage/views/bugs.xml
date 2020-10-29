@@ -1,7 +1,7 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-    <!-- <record model="ir.ui.view" id="bug-manage.list">
+    <record model="ir.ui.view" id="bug-manage.list">
       <field name="name">bug列表</field>
       <field name="model">bm.bug</field>
       <field name="arch" type="xml">
@@ -12,7 +12,7 @@
         </tree>
       </field>
     </record>
-    <record model="ir.ui.view" id="bug-manage.form">
+    <!-- <record model="ir.ui.view" id="bug-manage.form">
       <field name="name">bug表单</field>
       <field name="model">bm.bug</field>
       <field name="arch" type="xml">

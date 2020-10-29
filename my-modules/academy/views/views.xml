@@ -1,9 +1,9 @@
 <odoo>
   <data>
-    <!-- <record id="action_academy_teachers" model="ir.actions.act_window">
+    <record id="action_academy_teachers" model="ir.actions.act_window">
       <field name="name">Academy teachers</field>
       <field name="res_model">academy.teachers</field>
-    </record> -->
+    </record>
     <record id="academy_teacher_form" model="ir.ui.view">
       <field name="name">Academy teachers: form</field>
       <field name="model">academy.teachers</field>
@@ -21,8 +21,8 @@
 
     <menuitem sequence="0" id="menu_academy" name="Academy"/>
     <menuitem id="menu_academy_content" parent="menu_academy" name="Academy Content"/>
-    <!-- <menuitem id="menu_academy_content_teachers" parent="menu_academy_content" action="action_academy_teachers"/> -->
-    <menuitem id="menu_academy_content_teachers" parent="menu_academy_content" action="academy_teacher_form"/>
+    <menuitem id="menu_academy_content_teachers" parent="menu_academy_content" action="action_academy_teachers"/>
+    <!-- <menuitem id="menu_academy_content_teachers" parent="menu_academy_content" action="academy_teacher_form"/> -->
     <!-- explicit list view definition -->
     <!--
     <record model="ir.ui.view" id="academy.list">

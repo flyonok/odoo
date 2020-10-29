@@ -29,7 +29,7 @@
                 <div>test</div>
                 <h3 t-field="person.name"/>
                 <!-- <p>Last modified11: <i t-field="person.write_date" t-options='{"format": "long"}'/> -->
-                <p>Last modified11: <i t-field="person.write_date" t-options='{"widget": "relative"}'/>
+                <p>Last modified: <i t-field="person.write_date" t-options='{"widget": "relative"}'/>
                 </p>
                 <div t-field="person.biography"/>
 

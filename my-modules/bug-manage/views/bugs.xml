@@ -12,7 +12,7 @@
         </tree>
       </field>
     </record>
-    <!-- <record model="ir.ui.view" id="bug-manage.form">
+    <record model="ir.ui.view" id="bug-manage.form">
       <field name="name">bug表单</field>
       <field name="model">bm.bug</field>
       <field name="arch" type="xml">
@@ -51,7 +51,7 @@
           <field name="user_id"/>
         </search>
       </field>
-    </record> -->
+    </record>
     <!-- actions opening views on models -->
     <record model="ir.actions.act_window" id="bug-manage.action_window">
       <field name="name">bug-manage window</field>

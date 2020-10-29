@@ -60,7 +60,7 @@
     </record>
 
     <!-- Top menu item -->
-    <menuitem name="bug管理系统" id="bug-manage.menu_root"/>
+    <menuitem sequence="0" name="bug管理系统" id="bug-manage.menu_root"/>
 
     <!-- menu categories -->
     <menuitem name="bug管理" id="bug-manage.menu_1" parent="bug-manage.menu_root"/>

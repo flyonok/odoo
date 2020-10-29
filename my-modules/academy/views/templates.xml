@@ -21,20 +21,41 @@
             <t t-set="title">Academy</t>
             <div class="oe_structure"/>
             <div class="oe_structure"/>
-                <div class="container">
+            <div class="container">
                 <!-- <t t-esc="person.id"/>
                     <t t-esc="person.name"/> -->
-                
-                    <!-- <t t-esc="person.name"/> -->
-                    <div>test</div>
-                    <h3 t-field="person.name"/>
-                    <p>Last modified11: <i t-field="person.write_date" t-options='{"format": "long"}'/></p>
-                    <div t-field="person.biography"/>
-                    
 
-                </div>
+                <!-- <t t-esc="person.name"/> -->
+                <div>test</div>
+                <h3 t-field="person.name"/>
+                <!-- <p>Last modified11: <i t-field="person.write_date" t-options='{"format": "long"}'/> -->
+                <p>Last modified11: <i t-field="person.write_date" t-options='{"widget": "relative"}'/>
+                </p>
+                <div t-field="person.biography"/>
+
+
+            </div>
             <div class="oe_structure"/>
         </t>
     </template>
-    <data>                    <!-- <template id="listing"> -->                    <!--   <ul> -->                    <!--     <li t-foreach="objects" t-as="object"> -->                    <!--       <a t-attf-href="#{ root }/objects/#{ object.id }"> -->                    <!--         <t t-esc="object.display_name"/> -->                    <!--       </a> -->                    <!--     </li> -->                    <!--   </ul> -->                    <!-- </template> -->                    <!-- <template id="object"> -->                    <!--   <h1><t t-esc="object.display_name"/></h1> -->                    <!--   <dl> -->                    <!--     <t t-foreach="object._fields" t-as="field"> -->                    <!--       <dt><t t-esc="field"/></dt> -->                    <!--       <dd><t t-esc="object[field]"/></dd> -->                    <!--     </t> -->                    <!--   </dl> -->                    <!-- </template> --></data>
+    <data>
+        <!-- <template id="listing"> -->
+        <!--   <ul> -->
+        <!--     <li t-foreach="objects" t-as="object"> -->
+        <!--       <a t-attf-href="#{ root }/objects/#{ object.id }"> -->
+        <!--         <t t-esc="object.display_name"/> -->
+        <!--       </a> -->
+        <!--     </li> -->
+        <!--   </ul> -->
+        <!-- </template> -->
+        <!-- <template id="object"> -->
+        <!--   <h1><t t-esc="object.display_name"/></h1> -->
+        <!--   <dl> -->
+        <!--     <t t-foreach="object._fields" t-as="field"> -->
+        <!--       <dt><t t-esc="field"/></dt> -->
+        <!--       <dd><t t-esc="object[field]"/></dd> -->
+        <!--     </t> -->
+        <!--   </dl> -->
+        <!-- </template> -->
+    </data>
 </odoo>

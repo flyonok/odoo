@@ -28,7 +28,7 @@
                     <!-- <t t-esc="person.name"/> -->
                     <div>test</div>
                     <h3 t-field="person.name"/>
-                    <p>Last modified11: <i t-field="person.write_date"/></p>
+                    <p>Last modified11: <i t-field="person.write_date" t-options='{"format": "long"}'/></p>
                     <div t-field="person.biography"/>
                     
 

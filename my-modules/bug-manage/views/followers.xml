@@ -13,7 +13,7 @@
         <!-- actions open views  on models -->
         <record model="ir.actions.act_window" id="bug-manager.follower_action_window">
             <field name="name">follower window</field>
-            <field name="res_model">res_partner</field>
+            <field name="res_model">res.partner</field>
             <field name="view_mode"></field>
         </record>
         <!-- menu categories -->

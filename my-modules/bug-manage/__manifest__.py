@@ -29,6 +29,7 @@
         'views/views.xml',
         'views/templates.xml',
         'views/bugs.xml',
+        'views/followers.xml'
     ],
     # only loaded in demonstration mode
     'demo': [

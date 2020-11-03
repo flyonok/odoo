@@ -2,7 +2,8 @@
     <data>
         <record model="ir.ui.view" id="bug-manager.follower_form">
             <field name="name">follower</field>
-            <field name="model">res.partner</field>
+            <!-- <field name="model">res.partner</field> -->
+            <field name="model">bm.followers</field>
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <field name="mobile" positon="after">
@@ -13,7 +14,8 @@
         <!-- actions open views  on models -->
         <record model="ir.actions.act_window" id="bug-manager.follower_action_window">
             <field name="name">follower window</field>
-            <field name="res_model">res.partner</field>
+            <!-- <field name="res_model">res.partner</field> -->
+            <field name="res_model">bm.followers</field>
             <field name="view_mode"></field>
         </record>
         <!-- menu categories -->

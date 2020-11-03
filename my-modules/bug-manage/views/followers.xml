@@ -16,7 +16,7 @@
             <field name="name">follower window</field>
             <field name="res_model">res.partner</field>
             <!-- <field name="res_model">bm.followers</field> -->
-            <field name="view_mode"></field>
+            <field name="view_mode">form</field>
         </record>
         <!-- menu categories -->
         <menuitem name="关注者管理" id="bug-manage.menu_2" parent="bug-manage.menu_root"/>

@@ -1,9 +1,9 @@
 <odoo>
     <data>
-        <record model="ir.ui.view" id="bug-manager.follower_form">
+        <record model="ir.ui.view" id="bug-manage.follower_form">
             <field name="name">follower</field>
-            <!-- <field name="model">res.partner</field> -->
-            <field name="model">bm.followers</field>
+            <field name="model">res.partner</field>
+            <!-- <field name="model">bm.followers</field> -->
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <field name="mobile" positon="after">
@@ -12,17 +12,17 @@
             </field>
         </record>
         <!-- actions open views  on models -->
-        <record model="ir.actions.act_window" id="bug-manager.follower_action_window">
+        <record model="ir.actions.act_window" id="bug-manage.follower_action_window">
             <field name="name">follower window</field>
-            <!-- <field name="res_model">res.partner</field> -->
-            <field name="res_model">bm.followers</field>
+            <field name="res_model">res.partner</field>
+            <!-- <field name="res_model">bm.followers</field> -->
             <field name="view_mode"></field>
         </record>
         <!-- menu categories -->
-        <menuitem name="关注者管理" id="bug-manager.menu_2" parent="bug-manager.menu_root"/>
+        <menuitem name="关注者管理" id="bug-manage.menu_2" parent="bug-manage.menu_root"/>
         <!-- menu actions -->
-        <menuitem name="关注者" id="bug-manager.menu_2_form" parent="bug-manager.menu_2"
-            action="bug-manager.follower_action_window"/>
+        <menuitem name="关注者" id="bug-manage.menu_2_form" parent="bug-manage.menu_2"
+            action="bug-manage.follower_action_window"/>
     </data>
     
 </odoo>

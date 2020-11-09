@@ -127,6 +127,8 @@ def init_logger():
 
     logging.addLevelName(25, "INFO")
     logging.captureWarnings(True)
+    # add by xiaowy 2020/11/09
+    logging.Formatter.converter = time.localtime
 
     from .tools.translate import resetlocale
     resetlocale()

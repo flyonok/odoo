@@ -398,7 +398,7 @@ class IrMailServer(models.Model):
         '''
         get_param = self.env['ir.config_parameter'].sudo().get_param
         # postmaster = get_param('mail.bounce.alias', default='postmaster-odoo')
-        postmaster = get_param('mail.bounce.alias', default='254755020')
+        postmaster = get_param('mail.bounce.alias', default='2501067741')
         domain = get_param('mail.catchall.domain')
         if postmaster and domain:
             _logger.info('%s@%s--xiaowy' % (postmaster, domain))

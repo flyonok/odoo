@@ -128,7 +128,16 @@ def init_logger():
     logging.addLevelName(25, "INFO")
     logging.captureWarnings(True)
     # add by xiaowy 2020/11/09
-    logging.Formatter.converter = time.localtime
+    # logging.Formatter.converter = time.localtime
+    from datetime import datetime
+    from pytz import timezone
+    def timetz(*args):
+        return datetime.now(tz).timetuple()
+
+    tz = timezone('Asia/Shanghai') # UTC, Asia/Shanghai, Europe/Berlin
+
+    logging.Formatter.converter = timetz
+    # end
 
     from .tools.translate import resetlocale
     resetlocale()

@@ -1,6 +1,6 @@
 <odoo>
   <data>
-    <record id="action_academy_teachers" model="ir.actions.act_window">
+    <record id="action_academy1_teachers" model="ir.actions.act_window">
       <field name="name">Academy teachers</field>
       <field name="res_model">academy.teachers</field>
     </record>

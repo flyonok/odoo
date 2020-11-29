@@ -1,0 +1,127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* academy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-25 03:06+0000\n"
+"PO-Revision-Date: 2020-11-25 03:06+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.person
+msgid "Academy"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.menu,name:academy.menu_academy_content
+msgid "Academy Content2"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.action_academy_courses
+#: model:ir.ui.menu,name:academy.menu_academy_content_courses
+msgid "Academy courses"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.action_academy1_teachers
+#: model:ir.ui.menu,name:academy.menu_academy_content_teachers
+msgid "Academy teachers"
+msgstr "教育老师"
+
+#. module: academy
+#: model:ir.ui.menu,name:academy.menu_academy
+msgid "Academy1"
+msgstr "教育1"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers__biography
+msgid "Biography"
+msgstr "图片"
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_course_list
+msgid "Courses"
+msgstr "课程"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_courses__create_uid
+#: model:ir.model.fields,field_description:academy.field_academy_teachers__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_courses__create_date
+#: model:ir.model.fields,field_description:academy.field_academy_teachers__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_courses__display_name
+#: model:ir.model.fields,field_description:academy.field_academy_teachers__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_courses__id
+#: model:ir.model.fields,field_description:academy.field_academy_teachers__id
+msgid "ID"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_courses____last_update
+#: model:ir.model.fields,field_description:academy.field_academy_teachers____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_courses__write_uid
+#: model:ir.model.fields,field_description:academy.field_academy_teachers__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_courses__write_date
+#: model:ir.model.fields,field_description:academy.field_academy_teachers__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.person
+msgid "Last modified:"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_courses__name
+#: model:ir.model.fields,field_description:academy.field_academy_teachers__name
+msgid "Name"
+msgstr "名称"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_courses__teacher_id
+msgid "Teacher"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_academy_teachers
+msgid "academy teachers model"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_academy_courses
+msgid "academy.courses"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.person
+msgid "test"
+msgstr ""
+

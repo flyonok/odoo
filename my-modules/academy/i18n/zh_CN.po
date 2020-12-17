@@ -18,18 +18,18 @@ msgstr ""
 #. module: academy
 #: model_terms:ir.ui.view,arch_db:academy.person
 msgid "Academy"
-msgstr ""
+msgstr "教育"
 
 #. module: academy
 #: model:ir.ui.menu,name:academy.menu_academy_content
 msgid "Academy Content2"
-msgstr ""
+msgstr "教育内容"
 
 #. module: academy
 #: model:ir.actions.act_window,name:academy.action_academy_courses
 #: model:ir.ui.menu,name:academy.menu_academy_content_courses
 msgid "Academy courses"
-msgstr ""
+msgstr "教育课程"
 
 #. module: academy
 #: model:ir.actions.act_window,name:academy.action_academy1_teachers
@@ -74,7 +74,7 @@ msgstr "显示名称"
 #: model:ir.model.fields,field_description:academy.field_academy_courses__id
 #: model:ir.model.fields,field_description:academy.field_academy_teachers__id
 msgid "ID"
-msgstr ""
+msgstr "标识"
 
 #. module: academy
 #: model:ir.model.fields,field_description:academy.field_academy_courses____last_update
@@ -97,7 +97,7 @@ msgstr "最后更新时间"
 #. module: academy
 #: model_terms:ir.ui.view,arch_db:academy.person
 msgid "Last modified:"
-msgstr ""
+msgstr "最后修改日期"
 
 #. module: academy
 #: model:ir.model.fields,field_description:academy.field_academy_courses__name
@@ -108,20 +108,20 @@ msgstr "名称"
 #. module: academy
 #: model:ir.model.fields,field_description:academy.field_academy_courses__teacher_id
 msgid "Teacher"
-msgstr ""
+msgstr "老师"
 
 #. module: academy
 #: model:ir.model,name:academy.model_academy_teachers
 msgid "academy teachers model"
-msgstr ""
+msgstr "教育老师模型"
 
 #. module: academy
 #: model:ir.model,name:academy.model_academy_courses
 msgid "academy.courses"
-msgstr ""
+msgstr "教育课程"
 
 #. module: academy
 #: model_terms:ir.ui.view,arch_db:academy.person
 msgid "test"
-msgstr ""
+msgstr "测试"
 
